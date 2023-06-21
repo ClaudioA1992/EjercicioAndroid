@@ -71,8 +71,8 @@ public class MainActivity extends AppCompatActivity {
                     return;
                 }
 
-                int n1 = Integer.parseInt(numero1.getText().toString());
-                int n2 = Integer.parseInt(numero2.getText().toString());
+                double n1 = Integer.parseInt(numero1.getText().toString());
+                double n2 = Integer.parseInt(numero2.getText().toString());
 
                 Toast.makeText(getBaseContext(), "Dividiste " + (n1 / n2), Toast.LENGTH_LONG).show();
             }
